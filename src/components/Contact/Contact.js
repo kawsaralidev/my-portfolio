@@ -1,15 +1,16 @@
 
 import emailjs from 'emailjs-com'
+import { Button } from 'react-bootstrap';
 
 const Contact = () => {
     function sendEmail (e) {
         e.preventDefault();
-emailjs.sendEmail('service_4qz1yda', 'template_cl0nxls', e.target, 'user_RtojJJnrXSAI0v87Q7Oye')
-.then(res =>{
-    console.log(res)
-}).catch(error =>{
-    console.log(error)
-})
+        emailjs.sendForm('service_4qz1yda', 'template_cl0nxls', e.target, 'user_RtojJJnrXSAI0v87Q7Oye')
+        .then(res =>{
+            console.log(res)
+        }).catch(error =>{
+            console.log(error)
+        })
     }
     return (
         <div className="container border"
@@ -21,7 +22,7 @@ emailjs.sendEmail('service_4qz1yda', 'template_cl0nxls', e.target, 'user_RtojJJn
                   backgroundSize: "cover",
               }}>
               
-            <form onSubmit={""}>
+            <form onSubmit={sendEmail}>
               <div className="border mt-5 rounded w-75 mx-auto">
                    <h2 className="text-primary my-4">Contact Me</h2>
                     <div className="mx-auto my-3">
@@ -39,7 +40,7 @@ emailjs.sendEmail('service_4qz1yda', 'template_cl0nxls', e.target, 'user_RtojJJn
                          <label for="exampleFormControlTextarea1" className="form-label">Message</label>
                          <textarea name="message" className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                        </div>
-                       <a className="bg-primary text-white text-decoration-none p-2 rounded px-4  fs-5 fw-bold">Send</a>
+                       <Button type="submit" className="bg-primary text-white text-decoration-none p-2 rounded px-4  fs-5 fw-bold">Send</Button>
                     </div>
               </div>
 
