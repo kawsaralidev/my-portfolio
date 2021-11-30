@@ -1,26 +1,24 @@
-
+import './Contact.css'
 import emailjs from 'emailjs-com'
 import { Button } from 'react-bootstrap';
 
 const Contact = () => {
     function sendEmail (e) {
-        e.preventDefault();
+        
         emailjs.sendForm('service_4qz1yda', 'template_cl0nxls', e.target, 'user_RtojJJnrXSAI0v87Q7Oye')
         .then(res =>{
             console.log(res)
         }).catch(error =>{
             console.log(error)
         })
+        alert('message send successfully')
+        sendEmail()
+        e.preventDefault();
     }
+    
+    
     return (
-        <div className="container border"
-         style={{
-                  marginTop: "50px",
-                  width: "75%",
-                  backgroundImage: "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-              }}>
+        <div className="container mt-5 back-img-style border">
               
             <form onSubmit={sendEmail}>
               <div className="border mt-5 rounded w-75 mx-auto">

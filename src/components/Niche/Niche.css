@@ -1,0 +1,46 @@
+.niche-btn{
+    padding-top: 6px;
+    background-color: rgb(9, 10, 14);
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.niche-btne{
+    padding-top: 4px;
+    background-color: rgb(9, 10, 14);
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -5px;
+
+}
+.niche-btne:hover{
+    padding-top: 4px;
+    background-color: rgb(3, 202, 209);
+    color:rgb(15, 8, 8);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -5px;
+
+}
+.niche-btn:hover{
+    padding-top: 6px;
+    background-color: rgb(3, 202, 209);
+    color:rgb(15, 8, 8);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
