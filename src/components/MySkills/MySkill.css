@@ -1,0 +1,24 @@
+.skill-img {
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    border: 2px solid #47646a;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.images:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills span {
+    position: absolute;
+    height: 5px;
+    width: 110px;
+    background: #ffc46b;
+    left: 44%;
+}

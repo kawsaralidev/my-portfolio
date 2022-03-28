@@ -1,0 +1,54 @@
+[
+    {
+        "id":"1",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/html5-original-wordmark.ed5a6632.svg",
+        "title":"HTML-5"
+    },
+    {
+        "id":"2",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/css3-original-wordmark.1d023123.svg",
+        "title":"CSS-3"
+    },
+    {
+        "id":"3",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/javascript-original.4c1b5332.svg",
+        "title":"JavaScript"
+    },
+    {
+        "id":"4",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/react-original-wordmark.7c837586.svg",
+        "title":"React"
+    },
+    {
+        "id":"5",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/mongodb-original-wordmark.37c25489.svg",
+        "title":"MongoDB"
+    },
+    
+    {
+        "id":"6",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/bootstrap-plain-wordmark.0507eea6.svg",
+        "title":"Bootstrap"
+    },
+    {
+        "id":"7",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/tailwindcss-icon.017e1e30.svg",
+        "title":"Tailwind"
+    }, {
+        "id":"8",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/firebase-icon.82a35fc0.svg",
+        "title":"Firebase"
+    },
+    {
+        "id":"9",
+        "img":"https://musing-turing-aea328.netlify.app/static/media/nodejs-original-wordmark.8629b14e.svg",
+        "title":"Node js"
+    },
+    {
+        "id":"10",
+        "img":"https://i.ibb.co/ZLs1pmz/ex.png",
+        "title":"Express js"
+    }
+  
+   
+]

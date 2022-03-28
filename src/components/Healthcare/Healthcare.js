@@ -21,7 +21,7 @@ const Healthcare = () => {
                     </div>
                     <div className="col-lg-12 col-sm-12 my-3 text-start">
                        <h3 className="text-info">SERVICE PROVIDED WEBSITE</h3>
-                       <ul>
+                       <ul className="my-4">
                            <li>
                            This is healthe service website.
                            The user can choose the services from here as per his need.

@@ -1,0 +1,21 @@
+.nav-container {
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0px 0px 20px 0px rgb(255, 0, 76);
+}
+.nav-menu {
+    color: white;
+    font-weight: 500 !important;
+    border: 1px solid rgb(22, 22, 22);
+}
+.nav-menu:hover {
+    border: 1px solid rgb(255, 39, 104);
+    color: rgb(190, 1, 89);
+    font-weight: 500 !important;
+    background: -webkit-linear-gradient(right, rgb(190, 1, 89), rgb(250, 32, 115));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-img {
+    color: rgb(255, 39, 104);
+}
