@@ -17,18 +17,18 @@
     width: 100%;
 }
 .img-container {
-    background-color: rgb(48, 46, 46);
+    background-image: linear-gradient(40deg, #ffc760 0%, #ff436f 50%, #e33de9 100%);
     border-radius: 50%;
     height: 80%;
     width: 100%;
     overflow: hidden;
 }
 .text-color {
-    color: #ff3838;
+    color: #fc00ff;
     font-weight: 700 !important;
     font-family: "PT Sans", sans-serif !important;
     font-family: var(--PTSans) !important;
-    background: -webkit-linear-gradient(rgb(255, 28, 134), #ff7070);
+    background-image: linear-gradient(40deg, #ffb937, #ff2209, #c4045d 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

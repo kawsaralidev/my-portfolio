@@ -4,23 +4,27 @@ import "./Contact.css";
 
 const Contact = () => {
     function sendEmail(e) {
+        e.preventDefault();
         emailjs
-            .sendForm("service_4qz1yda", "template_cl0nxls", e.target, "user_RtojJJnrXSAI0v87Q7Oye")
+            .sendForm("service_bsqaip9", "template_v9k4qnn", e.target, "user_RtojJJnrXSAI0v87Q7Oye")
             .then((res) => {
                 console.log(res);
             })
             .catch((error) => {
                 console.log(error);
             });
+        e.target.reset();
+
         alert("message send successfully");
-        sendEmail();
-        e.preventDefault();
     }
 
     return (
         <div style={{ backgroundColor: "rgb(22, 22, 22)" }}>
             <div className="container   ">
-                <h1 style={{ color: "rgb(255, 0, 106)", paddingTop: "50px" }}>Contact with Me</h1>
+                <div className="contact py-5">
+                    <h1 className="text-color ">Contact With Me</h1>
+                    <span></span>
+                </div>
                 <div className="row py-5 ">
                     <div className="col-lg-5">
                         <img className="contact-img" src="https://i.ibb.co/Xk4QLHp/contact1.png" alt="" />
@@ -29,12 +33,12 @@ const Contact = () => {
 
                             <p>I am available for freelance work. Connect with me via and call in to my account.</p>
                             <span>
-                                Phone: <span style={{ color: "rgb(255, 0, 106)", fontWeight: "400" }}> 01644014663</span>
+                                Phone: <span style={{ color: "#ff3019", fontWeight: "400" }}> 01644014663</span>
                             </span>
                             <br />
                             <span>
                                 Email:
-                                <span style={{ color: "rgb(255, 0, 106)", fontWeight: "400" }}>mdkawsarali346@gmail.com</span>
+                                <span style={{ color: "#ff3019", fontWeight: "400" }}> mdkawsarali346@gmail.com</span>
                             </span>
                         </div>
                     </div>

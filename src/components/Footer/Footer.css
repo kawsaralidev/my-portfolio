@@ -1,0 +1,11 @@
+.footer-icon-box {
+    margin-left: 40px;
+}
+.footer-icon-box span a {
+    margin-left: 10px;
+    color: white;
+}
+.footer-icon-box span a:hover {
+    margin-left: 10px;
+    color: #8ae8ff;
+}

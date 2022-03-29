@@ -1,62 +1,53 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-.containers {
-    max-width: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
-
-.card-wrapper {
-    width: 400px;
-    height: 500px;
-    position: relative;
-}
-
-.card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 350px;
-    height: 450px;
-    transform: translate(-50%, -50%);
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.card-image:hover img {
-    opacity: 0.4;
-    transition: 0.5s;
-}
-.card-image {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #000;
-    transition: 0.5s;
-}
-
-.card:hover .card-image {
-    transform: translateY(-90px);
-    transition: all 0.9s;
-}
-
-.details {
+.face {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgb(155, 154, 154);
     width: 100%;
-    height: 120px;
-    z-index: 1;
-    padding-top: 55px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: start;
+    padding: 5px;
+}
+.face2 {
+    transition: 0.5s;
+}
+.java2 {
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.card:hover .face.face2 {
+    height: 70px;
+}
+
+.card:nth-child(1) .face.face2 {
+    background-image: linear-gradient(40deg, #c7c7c7 0%, #888385 50%, #646464 100%);
+    border-radius: 15px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.projects span {
+    position: absolute;
+    height: 5px;
+    width: 110px;
+    background: #ffc46b;
+    left: 42%;
 }

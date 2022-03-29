@@ -12,7 +12,10 @@ const MyProjects = () => {
     return (
         <div style={{ backgroundColor: "rgb(22, 22, 22)" }}>
             <div className="container">
-                <h1 style={{ color: "rgb(255, 0, 106)", marginBottom: "50px" }}>My Projects</h1>
+                <div className="projects py-5">
+                    <h1 className="text-color "> My Projects</h1>
+                    <span></span>
+                </div>
                 <div className="row">
                     {projects.map((project) => (
                         <MyProject key={project.id} project={project}></MyProject>

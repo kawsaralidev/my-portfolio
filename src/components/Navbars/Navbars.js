@@ -26,9 +26,16 @@ const Navbars = () => {
                         <Nav.Link className="nav-menu" as={Link} to="/contact">
                             Contact Me
                         </Nav.Link>
-                        <Nav.Link className="nav-menu" as={Link} to="/blog">
-                            Blog
-                        </Nav.Link>
+                        <div>
+                            <a
+                                target="_blank"
+                                className="niche-btn mt-2"
+                                href="https://drive.google.com/file/d/1P7xmaH1XtkMhGROTIBaFSp9aNSUXqvG7/view?usp=sharing"
+                                rel="noreferrer"
+                            >
+                                Download Resume
+                            </a>
+                        </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

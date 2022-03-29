@@ -13,7 +13,7 @@ const MySkills = () => {
         <div style={{ backgroundColor: "rgb(22, 22, 22)" }}>
             <div className="container py-5">
                 <div className="skills">
-                    <h1 className="text-white "> My Skills</h1>
+                    <h1 className="text-color "> My Skills</h1>
                     <span></span>
                 </div>
                 <div className="row mt-3">

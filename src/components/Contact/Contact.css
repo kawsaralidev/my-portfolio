@@ -10,3 +10,10 @@
     width: 100%;
     border-radius: 7px;
 }
+.contact span {
+    position: absolute;
+    height: 5px;
+    width: 110px;
+    background: #ffc46b;
+    left: 38%;
+}

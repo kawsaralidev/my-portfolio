@@ -11,13 +11,12 @@ const Banner = () => {
                         <div className="text-start">
                             <div className="text-start mt-5 text-white">
                                 <h3 className="text-color">Hi!</h3>
-                                <h2>Welcome To My World</h2>
+                                <h2>Welcome To My Portfolio</h2>
                                 <h1>
                                     I'm
                                     <span className="text-color"> Md Kawsar Ali</span>
                                 </h1>
                             </div>
-                            {/* <ReactTypingEffect text={["Hello.", "World!"]} /> */}
 
                             <br />
 
@@ -31,13 +30,7 @@ const Banner = () => {
                                                 {text.split("").map((char, i) => {
                                                     const key = `${i}`;
                                                     return (
-                                                        <span
-                                                            key={key}
-                                                            className="text-color fs-1"
-                                                            // style={
-                                                            //     i % 1 === 0 ? { color: "rgb(255, 0, 106)" } : { color: "rgb(255, 0, 106)" }
-                                                            // }
-                                                        >
+                                                        <span key={key} className="text-color fs-1">
                                                             {char}
                                                         </span>
                                                     );
