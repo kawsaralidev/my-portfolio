@@ -13,16 +13,16 @@ const Footer = () => {
                     </h5>
                 </div>
                 <div className="footer-icon-box col-lg-2 col-sm-6 col-md-6">
-                    <h4 className="text-white">Follow Me</h4>
+                    <h5 className="text-white">Follow Me</h5>
                     <span className="text-white">
                         <a target="_blank" href="https://www.facebook.com/kawsaralidev" rel="noreferrer">
-                            <i class="fab fa-facebook fs-2"></i>
+                            <i class="fab fa-facebook fs-3"></i>
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/kawsaralidev/" rel="noreferrer">
-                            <i class="fab fa-linkedin fs-2"></i>
+                            <i class="fab fa-linkedin fs-3"></i>
                         </a>
                         <a target="_blank" href="https://github.com/kawsaralidev" rel="noreferrer">
-                            <i class="fab fa-github fs-2"></i>
+                            <i class="fab fa-github fs-3"></i>
                         </a>
                     </span>
                 </div>
