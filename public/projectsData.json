@@ -2,7 +2,7 @@
     {
         "id":"1",
         "title":"HUMAN RESOURCE MANAGEMENT",
-        "description":"This is health service website. If you are seek you can choose your package and booking your appointment. If you wish you can cancel your appointment.",
+        "description":"This is our group project. Worked on the project Md Kawsar Ali, Md Forid Hossain,Sanjida Islam, Nurul Islam Tanvir, Md Mahedi and Asraful Islam Showrav.",
         "img":"https://i.ibb.co/fM2Rg6K/human-resource.png",
         "liveSite":"https://hrcare.netlify.app/",
         "githubLink":"https://github.com/md-mh/hr-care-client",
@@ -11,7 +11,7 @@
     {
         "id":"2",
         "title":"T-52 Mobile Zone",
-        "description":"This is health service website. If you are seek you can choose your package and booking your appointment. If you wish you can cancel your appointment.",
+        "description":"Mobile zone shop fully responsive and fast loading single product theme for selling mobile phones. Dashboard and admin panel availabl.",
         "img":"https://i.ibb.co/pr0Zr8M/T-52.png",
         "liveSite":"https://mobile-zone-by-team-52.netlify.app/",
         "githubLink":"https://github.com/afsumeem/T-52-Mobile-Zone",
@@ -20,7 +20,7 @@
     {
         "id":"3",
         "title":"Doctors Portal",
-        "description":"This is health service website. If you are seek you can choose your package and booking your appointment. If you wish you can cancel your appointment.",
+        "description":"A user can book his appointment here and he has to login before booking an appointment. If the user is not logged in, redairect will take him to the login page.",
         "img":"https://i.ibb.co/GWqLfsj/doctors-portal.png",
         "liveSite":"https://doctors-portal-a2ae9.web.app/",
         "githubLink":"https://github.com/kawsaralidev/doctors-portals-client-side",
@@ -29,7 +29,7 @@
     {
         "id":"4",
         "title":"Healthy Foods",
-        "description":"This is health service website. If you are seek you can choose your package and booking your appointment. If you wish you can cancel your appointment.",
+        "description":"This is a E-commarce application.All the technologies that have been used Reactjs, MongoDB, Firebase, Bootstrap, React router dom , Fontawesome etc.",
         "img":"https://i.ibb.co/42pSndj/healthy-foods.png",
         "liveSite":"https://healthy-foods-43829.web.app/",
         "githubLink":"https://github.com/kawsaralidev/healthy-foods-client",
@@ -58,7 +58,7 @@
     {
         "id":"7",
         "title":"Car Mechanic",
-        "description":"This is health service website. If you are seek you can choose your package and booking your appointment. If you wish you can cancel your appointment.",
+        "description":"This is a single page application. Client Booking Service client review this website clinet see his/her booking client delete his/her booking.",
         "img":"https://i.ibb.co/WWP7Fvv/Carmachanic.png",
         "liveSite":"https://car-service-8236d.web.app/",
         "githubLink":"https://github.com/kawsaralidev/car-mechanic",
